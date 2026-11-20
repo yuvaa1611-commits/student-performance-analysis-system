@@ -1,0 +1,323 @@
+TEST RUN LOG - import_csv.py (run by Claude with scripted inputs, Python 3, 2026-11-20)
+Outputs below are real program output. Prompts appear joined because input was piped in.
+
+### Add 85,78,91,74,82 and 100x5; view; search found/not found; highest; lowest; subject analysis; exit (save)
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Add Student ---
+Enter student ID: Enter student name: Enter marks in Python: Enter marks in Maths: Enter marks in Physics: Enter marks in Digital Logic: Enter marks in English: 
+Student added successfully!
+Name: Asha
+Total: 410.0
+Percentage: 82.0
+Grade: A
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Add Student ---
+Enter student ID: Enter student name: Enter marks in Python: Enter marks in Maths: Enter marks in Physics: Enter marks in Digital Logic: Enter marks in English: 
+Student added successfully!
+Name: Ravi
+Total: 500.0
+Percentage: 100.0
+Grade: A+
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- All Students ---
+
+ID: S001
+Name: Asha
+Total: 410.0
+Percentage: 82.0
+Grade: A
+
+ID: S002
+Name: Ravi
+Total: 500.0
+Percentage: 100.0
+Grade: A+
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Search Student ---
+Enter student ID: 
+Student Found
+ID: S001
+Name: Asha
+Python: 85.0
+Maths: 78.0
+Physics: 91.0
+Digital Logic: 74.0
+English: 82.0
+Total: 410.0
+Percentage: 82.0
+Grade: A
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Search Student ---
+Enter student ID: Student not found.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Highest Performer ---
+Name: Ravi
+Percentage: 100.0
+Grade: A+
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Lowest Performer ---
+Name: Asha
+Percentage: 82.0
+Grade: A
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Subject Analysis ---
+Python average: 92.5
+Maths average: 89.0
+Physics average: 95.5
+Digital Logic average: 87.0
+English average: 91.0
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: Data saved successfully.
+Thank you for using the program.
+
+### Invalid marks: 105, abc, -5, then valid 70s
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Add Student ---
+Enter student ID: Enter student name: Enter marks in Python: Marks should be between 0 and 100.
+Enter marks in Python: Please enter a valid number.
+Enter marks in Python: Marks should be between 0 and 100.
+Enter marks in Python: Enter marks in Maths: Enter marks in Physics: Enter marks in Digital Logic: Enter marks in English: 
+Student added successfully!
+Name: Test
+Total: 350.0
+Percentage: 70.0
+Grade: B
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: Data saved successfully.
+Thank you for using the program.
+
+### Empty state (no students.csv): Highest, Lowest, Subject Analysis, View, Search, invalid menu choice, exit
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Highest Performer ---
+No students available.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Lowest Performer ---
+No students available.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Subject Analysis ---
+No students available.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- All Students ---
+No students available.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: 
+--- Search Student ---
+Enter student ID: Student not found.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: Invalid choice. Please try again.
+
+================================
+ STUDENT PERFORMANCE ANALYSIS
+================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Find Highest Performer
+5. Find Lowest Performer
+6. Subject Analysis
+7. Save Data
+8. Exit
+Enter your choice: Data saved successfully.
+Thank you for using the program.
+
+### Persistence: students.csv from previous run reloaded; View All shows S001, S002, S003 (verified)
